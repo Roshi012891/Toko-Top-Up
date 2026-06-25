@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+/* Atur warna default untuk sidebar dan konten utama */
+body {
+    background-color: #111827; /* Warna gelap background utama */
+    color: #ffffff;            /* Warna teks default putih */
+    transition: background-color 0.3s;
+}
+
+/* Sidebar selalu berwarna gelap */
+.sidebar {
+    background-color: #1f2937; /* Warna gelap sidebar */
+}
